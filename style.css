@@ -235,4 +235,83 @@ footer {
   margin-top: 15px;
   color: #94a3b8;
 }
+/* ===============================
+   MOBILE RESPONSIVE FIX
+   =============================== */
+
+@media (max-width: 768px) {
+
+  /* NAVBAR */
+  nav {
+    flex-direction: column;
+    padding: 15px 20px;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 10px;
+  }
+
+  nav ul li {
+    margin: 10px;
+  }
+
+  /* HERO SECTION */
+  .hero {
+    height: auto;
+    padding-top: 40px;
+  }
+
+  .profile-pic {
+    width: 180px;
+    height: 180px;
+  }
+
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .typing {
+    font-size: 1.1rem;
+  }
+
+  /* SECTIONS */
+  section {
+    padding: 60px 20px;
+  }
+
+  /* SKILLS */
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* PROJECTS */
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* EXPERIENCE */
+  .experience-card {
+    padding: 20px;
+  }
+
+  /* CERTIFICATIONS */
+  .cert-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* CONTACT */
+  .contact-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .social-links {
+    align-items: center;
+  }
+
+}
+
+
 
